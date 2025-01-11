@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .navbar-links .nav-link {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-links .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  .search-form {
+    display: flex;
+  }
+  
+  .search-input {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .search-button {
+    padding: 0.5rem;
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #777;
+  }

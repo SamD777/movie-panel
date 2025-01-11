@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import MovieCard from '../components/MovieCard';
 import Pagination from '../components/Pagination';
+import './PageStyles.css';
 
 const HomePage = () => {
   const [movies, setMovies] = useState([]);
@@ -19,8 +20,8 @@ const HomePage = () => {
   }, [page]);
 
   return (
-    <div>
-      <h1>Popular Movies</h1>
+    <div className="page-container">
+      <h1 className="page-title">Popular Movies</h1>
       <div className="movie-grid">
         {movies.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />

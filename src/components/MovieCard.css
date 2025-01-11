@@ -1,0 +1,28 @@
+movie-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-title {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .details-link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+  }
+  
+  .details-link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,26 @@
+pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  .pagination-button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .pagination-button:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+  }
+  
+  .page-number {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  
